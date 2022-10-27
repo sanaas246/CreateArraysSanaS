@@ -27,21 +27,14 @@ for rand in range(300):
 
 # 6
 multFour = []
-for mult in range(20, 40, 4):
-    multFour.extend(mult)
-print(multFour)
+for mult in range(20, 80, 4):
+    multFour.append(mult)
 
 # 7 
-# evenli = []
-# factorE = 1
-# loop = True
-# while loop:
-#     if factorE * 2 > 10 and factorE * 2 < 100:
-#         evenli.insert(len(evenli), factorE * 2)
-#         factorE += 1
-#     else:
-#         factorE += 1
-# print(evenli)
+evenli = []
+for evenNum in range(0, 100, 2):
+    evenli.insert(len(evenli) + 1, evenNum)
+print(evenli)
 
 # # 8
 # colors_str = "red,orange,yellow,green,blue,indigo,violet"
