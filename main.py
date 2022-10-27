@@ -27,13 +27,13 @@ for rand in range(300):
 
 # 6
 multFour = []
-for mult in range(20, 80, 4):
+for mult in range(20, 801, 4):
     multFour.append(mult)
 
 # 7 
 evenli = []
-for evenNum in range(0, 100, 2):
-    evenli.insert(0, evenNum)
+for evenNum in range(100, 9 , -2): 
+    evenli.append(evenNum)
 
 # 8
 colors_str = "red,orange,yellow,green,blue,indigo,violet"
@@ -50,9 +50,7 @@ while loop:
     usernames = input("Please enter a name or type 'done': ")
     if usernames != "done":
         names.append(usernames)
-        
     else:
         print("thanks")
         loop = False
 
-print(names)
