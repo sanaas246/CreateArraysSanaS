@@ -33,15 +33,26 @@ for mult in range(20, 80, 4):
 # 7 
 evenli = []
 for evenNum in range(0, 100, 2):
-    evenli.insert(len(evenli) + 1, evenNum)
-print(evenli)
+    evenli.insert(0, evenNum)
 
-# # 8
-# colors_str = "red,orange,yellow,green,blue,indigo,violet"
-# for color in colors_str:
-#     print(f"{color}")
+# 8
+colors_str = "red,orange,yellow,green,blue,indigo,violet"
+colors_str.split(",")
 
-# # 9
-# cities_str = "Edmonton;Calgary;Vancouver;Saskatoon;Winnipeg"
-# for city in cities_str:
-#     print(f"{city}")
+# 9
+cities_str = "Edmonton;Calgary;Vancouver;Saskatoon;Winnipeg"
+cities_str.split(";")
+
+# 10
+names = []
+loop = True
+while loop:
+    usernames = input("Please enter a name or type 'done': ")
+    if usernames != "done":
+        names.append(usernames)
+        
+    else:
+        print("thanks")
+        loop = False
+
+print(names)
