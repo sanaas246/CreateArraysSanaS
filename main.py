@@ -25,17 +25,11 @@ randomInts = []
 for rand in range(300):
     randomInts.append(random.randint(0,40))
 
-# # 6
-# multFour = []
-# factor = 1
-# loop = True
-# while loop:
-#     if factor * 4 > 20 and factor * 4 < 800:
-#         multFour.append(factor * 4)
-#         factor += 1
-#     else: 
-#         factor += 1
-# print(multFour)
+# 6
+multFour = []
+for mult in range(20, 40, 4):
+    multFour.extend(mult)
+print(multFour)
 
 # 7 
 # evenli = []
