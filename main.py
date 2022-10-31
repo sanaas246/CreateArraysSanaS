@@ -32,7 +32,7 @@ for mult in range(20, 801, 4):
 
 # 7 
 evenli = []
-for evenNum in range(100, 9 , -2): 
+for evenNum in range(100, 9, -2):
     evenli.append(evenNum)
 
 # 8
